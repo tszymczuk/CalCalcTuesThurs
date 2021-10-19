@@ -11,6 +11,8 @@ public class Calcwindow {
 
     @FXML
     public void numberButtonPushed(ActionEvent event){
-        
+        var currentText = numberDisplay.getText();
+        var currentNumberText = event.getSource().toString();
+        var newText = currentText+currentNumberText;
     }
 }
