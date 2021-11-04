@@ -41,7 +41,7 @@
                         <Font name="System Bold" size="18.0" />
                      </font>
                   </Button>
-                  <Button mnemonicParsing="false" onAction="#numberButtonPushed" prefHeight="182.0" prefWidth="170.0" text="/" textFill="RED" GridPane.columnIndex="3">
+                  <Button mnemonicParsing="false" onAction="#dividePressed" prefHeight="182.0" prefWidth="170.0" text="/" textFill="RED" GridPane.columnIndex="3">
                      <font>
                         <Font name="System Bold" size="18.0" />
                      </font></Button>
@@ -60,7 +60,7 @@
                         <Font name="System Bold" size="18.0" />
                      </font>
                   </Button>
-                  <Button mnemonicParsing="false" onAction="#numberButtonPushed" prefHeight="169.0" prefWidth="193.0" text="x" textFill="RED" GridPane.columnIndex="3" GridPane.rowIndex="1">
+                  <Button mnemonicParsing="false" onAction="#multiplyPressed" prefHeight="169.0" prefWidth="193.0" text="x" textFill="RED" GridPane.columnIndex="3" GridPane.rowIndex="1">
                      <font>
                         <Font name="System Bold" size="18.0" />
                      </font></Button>
@@ -78,7 +78,7 @@
                      <font>
                         <Font name="System Bold" size="18.0" />
                      </font></Button>
-                  <Button mnemonicParsing="false" onAction="#numberButtonPushed" prefHeight="226.0" prefWidth="232.0" text="-" textFill="RED" GridPane.columnIndex="3" GridPane.rowIndex="2">
+                  <Button mnemonicParsing="false" onAction="#subtractButtonPressed" prefHeight="226.0" prefWidth="232.0" text="-" textFill="RED" GridPane.columnIndex="3" GridPane.rowIndex="2">
                      <font>
                         <Font name="System Bold" size="18.0" />
                      </font></Button>
